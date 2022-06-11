@@ -186,7 +186,7 @@ p strong {
 }
 
 .project-pic:hover {
-  transform: scale(1.02);
+  /* transform: scale(1.02); */
   transition: transform .5s ease;
 }
 
@@ -238,11 +238,6 @@ p strong {
   padding: 10px;
   font-weight: var(--heavy-font);
   text-align: center;
-}
-
-.project-link:hover {
-  transform: scale(2);
-  transition: transform .5s ease;
 }
 
 .project-card {
