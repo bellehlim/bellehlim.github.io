@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link rel="icon" type="image/png" href="assets/images/favicon.png" />
     <!--CSS Styles -->
     <link rel="stylesheet" href="assets/css/styles.css" />
 
@@ -31,30 +31,34 @@
         <li><a href="#about" class="nav-link">ABOUT</a></li>
         <li><a href="#software" class="nav-link">SOFTWARE WORK</a></li>
         <li><a href="#design" class="nav-link">DESIGN WORK</a></li>
-        <li><a href="#contact" class="nav-link">CONTACT</a></li>
+        <!-- <li><a href="#contact" class="nav-link">CONTACT</a></li> -->
       </ul>
     </nav>
     <!-- Hero Section -->
 
-    <br><br>
-    <hero id="about">
-      <img
-        src="assets/images/headshot.jpeg"
-        alt="jane-doe"
-        loading="lazy"
-        class="hero-img"
-      />
-      <div class="bio">
-        <p>
+    <section class="projects" id="about">
+      <h2 class="projects-title">HELLO, I'M BELLE!</h2>
+      <div class="hero" id="about">
+        <img
+          src="assets/images/headshot.jpeg"
+          alt="jane-doe"
+          loading="lazy"
+          class="hero-img"
+        />
+        <div class="project-container">
+          <p class="project-details">
           My name is Belle Lim, and I'm currently a fourth year at Northeastern University studying
           Computer Science with a focus in human-centered computing and a minor in Experience Design. I am
           passionate about making elegant, accesible designs come to life that push the bounds of tech for
           the greater good! Tech is boundless, and so is our ability to use it to help others!
           <br><br>
-          Check out some of my work below!
-        </p>
+          Thanks for checking out my page!
+          </p>
+        </div>
       </div>
-    </hero>
+    </div>
+
+  </section>
 
     <!-- Projects section -->
     <section class="projects" id="software">
@@ -104,7 +108,7 @@
             such as word choices and performance data. Developed via design cycle including user personas 
             and usability testing. 
             <br><br>
-            Technologies used: D3, Kaggle, Python, Google Books N-gram API
+            Technologies used: Figma, D3, Kaggle, Python, Google Books N-gram API
           </p>
           <li class = "project-bullets">Data Visualization</li>
           <li class = "project-bullets">Project Management</li>
@@ -197,8 +201,6 @@
         </div>
       </div>
     </section>
-
-
 
     <section class="projects" id="design">
       <h2 class="projects-title">DESIGN</h2>
@@ -295,7 +297,7 @@
             class="project-pic"
           />
         <div class="project-container">
-          <h3 class="project-title">A Collection Design Briefs</h3>
+          <h3 class="project-title">A Collection of Design Briefs</h3>
           <p class="project-details">
             Spring 2021
             <br><br>
@@ -307,15 +309,18 @@
           <li class = "project-bullets">Graphic Design</li>
           <li class = "project-bullets">UI/UX Design</li>
           <br><br>
-          <div>
-            <a href="software.html" target="_blank" class="project-link">See More</a>
-          </div>
+          <p> Details coming soon! </p>
+          <!-- <div>
+            <a href="assets/projects/briefs.html" target="_blank" class="project-link">See More</a>
+          </div> -->
         </div>
       </div>
     </section>
 
     <!-- Footer section -->
-<footer></footer>
+    <div class='footer'>
+      <p>Made with &#9829; by Belle Lim &copy; 2022</p>
+  </div>
     <!-- Website scripts -->
     <script src="assets/js/app.js"></script>
 
