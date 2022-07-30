@@ -90,18 +90,20 @@ nav ul li {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 300px;
-  margin-right: 300px;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 .hero-img {
   width: 20%;
   border-radius: 10px;
+
+  min-width: 200px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .bio {
-  width: 30rem;
+  /* width: 30rem; */
   display: flex;
   padding: 2rem;
   border-radius: 6px;
